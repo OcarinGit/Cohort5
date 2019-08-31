@@ -1,0 +1,12 @@
+//alert("Testitu con flecha");
+$(document).ready(
+		()=>
+		{
+			inicializa();
+		}
+);
+
+function inicializa()
+{
+	alert("Testitu con flecha");
+}

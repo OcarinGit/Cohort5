@@ -1,0 +1,17 @@
+package com.helloworld;
+
+public class HelloWorld {
+	
+	private String mensaje;
+	
+	public void setMensaje(String msg)
+	{
+		mensaje=msg;
+	}
+	
+	public String getMensaje() 
+	{
+		return mensaje;
+	}
+
+}

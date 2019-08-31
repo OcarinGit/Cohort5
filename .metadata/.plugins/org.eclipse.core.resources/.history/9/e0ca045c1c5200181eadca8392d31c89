@@ -1,0 +1,16 @@
+package com.springhelloworld2.helloworld;
+
+import javax.swing.plaf.synth.SynthScrollBarUI;
+
+public class HelloWorld2App {
+
+	public static void main(String[] args) {
+		System.out.println("Hola Mundo");
+		
+		HelloWorld holo = new HelloWorld();
+		
+		holo.setMensajitu("Holo");
+		System.out.println(holo.getMensajitu());
+	}
+
+}

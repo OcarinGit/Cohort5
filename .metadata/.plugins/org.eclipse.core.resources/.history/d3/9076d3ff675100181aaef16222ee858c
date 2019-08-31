@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       >
+
+	<bean id="hello1" class="com.helloworld.HelloWorld">
+		<property name="mensaje" value="Holita_Mundito"/>
+	</bean>
+	
+	<bean id="hello2" class="com.helloworld.HelloWorld">
+		<property name="mensaje" value="Holita_Mundito2"/>
+	</bean>
+	
+	<bean id="hello3" class="com.helloworld.HelloWorld">
+		<property name="mensaje" value="Holita_Mundito3"/>
+	</bean>
+</beans>

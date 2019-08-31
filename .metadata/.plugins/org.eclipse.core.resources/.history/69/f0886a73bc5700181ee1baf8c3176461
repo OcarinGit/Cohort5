@@ -1,0 +1,28 @@
+package com.mvchibernate.model;
+
+public class Pacientes {
+	
+	private int NSSPaciente;
+	private String nombrePaciente;
+	private int noCuarto;
+	public int getNSSPaciente() {
+		return NSSPaciente;
+	}
+	public void setNSSPaciente(int nSSPaciente) {
+		NSSPaciente = nSSPaciente;
+	}
+	public String getNombrePaciente() {
+		return nombrePaciente;
+	}
+	public void setNombrePaciente(String nombrePaciente) {
+		this.nombrePaciente = nombrePaciente;
+	}
+	public int getNoCuarto() {
+		return noCuarto;
+	}
+	public void setNoCuarto(int noCuarto) {
+		this.noCuarto = noCuarto;
+	}
+
+
+}

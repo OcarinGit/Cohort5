@@ -1,0 +1,11 @@
+package org.ejercicios;
+
+public class ManejoCadenas {
+	
+	public boolean Palindromo(String cadena)
+	{
+		boolean isPalindromo=false;
+		
+		return isPalindromo;
+	}
+}

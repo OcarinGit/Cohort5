@@ -1,0 +1,5 @@
+package com.mvchibernate.model;
+
+public class Pacientes {
+
+}

@@ -1,0 +1,5 @@
+package com.primeservice.webservices;
+
+public interface iHolaMundo {
+
+}

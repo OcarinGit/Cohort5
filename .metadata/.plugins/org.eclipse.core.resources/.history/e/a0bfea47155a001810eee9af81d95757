@@ -1,0 +1,10 @@
+package com.proyecto1webservices.services;
+
+import javax.jws.WebService;
+
+@WebService
+public interface HolaMundoService {
+	
+	public String HolaMundo();
+
+}

@@ -1,0 +1,9 @@
+package com.primeservice.webservices;
+
+import javax.jws.WebService;
+
+@WebService
+public interface iHolaMundo {
+	
+	public String HolaMundoMensaje(String nombre);
+}

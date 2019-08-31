@@ -1,0 +1,10 @@
+package com.hibernateholamundo.app;
+
+public class ChicxsApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

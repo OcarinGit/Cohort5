@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;bootstrap-grid.min.css, bootstrap-reboot.min.css, bootstrap.min.css&apos; to &apos;css&apos;" description="Move 3 resources to &apos;css&apos;" destination="WebContent/css" element1="WebContent/js/bootstrap-grid.min.css" element2="WebContent/js/bootstrap-reboot.min.css" element3="WebContent/js/bootstrap.min.css" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="3" stamp="1526332073920" updateReferences="true"/>
+</session>

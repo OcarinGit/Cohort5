@@ -1,0 +1,24 @@
+package com.apprestws.services;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+@Path("/holita")
+public class HolaMundoRestService {
+	
+	@GET
+	@Produces(MediaType.TEXT_XML)
+	public String Holo()
+	{
+		return "<?xml version=\"1.0\"?><holo>Holo</holo>";
+	}
+	
+	@GET
+	@Produces(MediaType.TEXT_HTML)
+	public String HoloHTML()
+	{
+		return "<h1>Holo</h1>";
+	}
+}

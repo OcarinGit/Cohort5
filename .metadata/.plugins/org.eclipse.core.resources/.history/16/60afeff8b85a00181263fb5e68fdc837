@@ -1,0 +1,5 @@
+package com.apprestws.services;
+
+public class HolaMundoRestService {
+
+}

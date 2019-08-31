@@ -1,0 +1,20 @@
+package com.helloworld;
+
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+public class HelloWorldApp {
+
+	public static void main(String[] args) {
+		
+		//Dejando que el programador cree los objetos. La forma tradicional.
+		HelloWorld msgBienvenida = new HelloWorld();
+		
+		msgBienvenida.setMensaje("Hola Mundo");
+		System.out.println(msgBienvenida.getMensaje());
+		
+		//Creando los objetos mediante el Spring Container. IoC (Inversion of Control) way.
+		Resource resource = new ClassPathResource("")
+	}
+
+}

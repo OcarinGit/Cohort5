@@ -1,0 +1,12 @@
+package com.holamundospringboot.model;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HolaMundoControlador {
+
+	public String Holo() 
+	{
+		return "Holo";
+	}
+}

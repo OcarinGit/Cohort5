@@ -1,0 +1,5 @@
+package com.primeeasyservice.services;
+
+public class HolaMundo {
+
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>HolaMundoServlet</servlet-name>
+  	<display-name>HolaMundoServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.holamundo.controlador.HolaMundoServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HolaServlet</servlet-name>
+  	<display-name>HolaServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.holamundo.controlador.HolaServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HolaS</servlet-name>
+  	<display-name>HolaS</display-name>
+  	<description></description>
+  	<servlet-class>HolaS</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Hola</servlet-name>
+  	<display-name>Hola</display-name>
+  	<description></description>
+  	<servlet-class>org.holamundo.controlador.Hola</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HolaMundoServlet</servlet-name>
+  	<url-pattern>/HolaMundoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HolaServlet</servlet-name>
+  	<url-pattern>/HolaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HolaS</servlet-name>
+  	<url-pattern>/HolaS</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Hola</servlet-name>
+  	<url-pattern>/Hola</url-pattern>
+  </servlet-mapping>
+</web-app>

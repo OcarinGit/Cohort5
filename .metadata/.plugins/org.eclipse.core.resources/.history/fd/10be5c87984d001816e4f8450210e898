@@ -1,0 +1,5 @@
+package com.strutsholamundo.actions;
+
+public class HolaMundo {
+
+}

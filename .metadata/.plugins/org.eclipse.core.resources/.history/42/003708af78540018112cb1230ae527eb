@@ -1,0 +1,8 @@
+package com.hibernateholamundo.app;
+
+public class Snippet {
+	public static void main(String[] args) {
+		com.hibernateholamundo.app
+	}
+}
+

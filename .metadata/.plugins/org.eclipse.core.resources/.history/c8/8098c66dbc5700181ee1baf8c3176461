@@ -1,0 +1,10 @@
+package com.mvchibernate.model;
+
+public class Pacientes {
+	
+	private int NSSPaciente;
+	private String nombrePaciente;
+	private int noCuarto;
+
+
+}

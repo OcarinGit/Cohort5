@@ -1,0 +1,16 @@
+package com.springhelloworld2.helloworld;
+
+public class Bienvenida {
+	
+	private String bienvenido;
+	
+	public void setBienvenido(String bien)
+	{
+		bienvenido=bien;
+	}
+	
+	public String getBienvenido()
+	{
+		return "Bienvenido";
+	}
+}

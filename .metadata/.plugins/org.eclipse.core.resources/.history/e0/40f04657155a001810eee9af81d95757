@@ -1,0 +1,15 @@
+package com.proyecto1webservices.services;
+
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+
+@WebService
+public class HolaMundoServiceImplentation implements HolaMundoService{
+	
+	@WebMethod
+	public String HolaMundo()
+	{
+		return "Hola Munditu";
+	}
+
+}

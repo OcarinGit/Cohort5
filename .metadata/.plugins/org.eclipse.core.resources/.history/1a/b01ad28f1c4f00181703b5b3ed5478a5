@@ -1,0 +1,10 @@
+package com.helloworld;
+
+public class HelloWorldApp {
+
+	public static void main(String[] args) {
+		HelloWorld msgBienvenida = new HelloWorld();
+		
+	}
+
+}

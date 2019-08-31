@@ -1,0 +1,27 @@
+INDEX VERSION 1.130
+E:\Ocarin\Generation\Generation 2018A\Java Backend Course 2018A\workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\344565269.index
+\MVCHibernate\src
+E:\Ocarin\Generation\Generation 2018A\Java Backend Course 2018A\workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1126284360.index
+\HolaMundoMVC\src
+E:\Ocarin\Generation\Generation 2018A\Java Backend Course 2018A\workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\701558658.index
+\MavenHibernate\src
+E:\Ocarin\Generation\Generation 2018A\Java Backend Course 2018A\workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3417376567.index
+\StrutsProject\src
+E:\Ocarin\Generation\Generation 2018A\Java Backend Course 2018A\workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2802340610.index
+\StrutsHelloWorld\src
+E:\Ocarin\Generation\Generation 2018A\Java Backend Course 2018A\workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3203843554.index
+\OperacionesMVC\src
+E:\Ocarin\Generation\Generation 2018A\Java Backend Course 2018A\workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1094050747.index
+\ProyectoAsincrono\src
+E:\Ocarin\Generation\Generation 2018A\Java Backend Course 2018A\workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\148315807.index
+\AjaxExample\src
+E:\Ocarin\Generation\Generation 2018A\Java Backend Course 2018A\workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\342954809.index
+\Struts2Project\src
+E:\Ocarin\Generation\Generation 2018A\Java Backend Course 2018A\workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2258056369.index
+\CalculadoraWebServicesClient\src
+E:\Ocarin\Generation\Generation 2018A\Java Backend Course 2018A\workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3100246979.index
+\PrimeEasyServiceClient\src
+E:\Ocarin\Generation\Generation 2018A\Java Backend Course 2018A\workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2409215428.index
+\PrimeEasyService2Client\src
+E:\Ocarin\Generation\Generation 2018A\Java Backend Course 2018A\workspaces\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\960626811.index
+\StrutsHolaMundo\src

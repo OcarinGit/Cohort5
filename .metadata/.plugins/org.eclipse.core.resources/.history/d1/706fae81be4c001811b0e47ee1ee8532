@@ -1,0 +1,9 @@
+package com.struts2project.actions;
+
+public class TutorialAction {
+	
+	public String execute()
+	{
+		
+	}
+}

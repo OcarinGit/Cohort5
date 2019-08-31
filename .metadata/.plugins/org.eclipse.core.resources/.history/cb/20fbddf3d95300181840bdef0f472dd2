@@ -1,0 +1,7 @@
+package com.hibernateholamundo.app;
+
+public class Chicxs {
+	private int idChicxs;
+	private String nombreChicxs;
+	private String apellidoChicxs;
+}

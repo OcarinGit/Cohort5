@@ -1,0 +1,5 @@
+package com.strutsproject.actions;
+
+public class Mensaje {
+
+}

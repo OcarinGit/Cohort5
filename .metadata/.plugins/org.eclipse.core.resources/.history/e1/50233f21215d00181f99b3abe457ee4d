@@ -1,0 +1,5 @@
+package com.holamundorest.services;
+
+public class HolaMundoRestService {
+
+}

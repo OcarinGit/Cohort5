@@ -1,0 +1,10 @@
+package com.struts2project.actions;
+
+public class TutorialAction {
+	
+	public String execute()
+	{
+		System.out.println("Hola Mundo desde el execute del POJO TutorialAction");
+		return "success";
+	}
+}

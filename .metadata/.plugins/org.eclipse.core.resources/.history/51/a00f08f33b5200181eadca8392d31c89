@@ -1,0 +1,21 @@
+package com.springhelloworld2.helloworld;
+
+public class HelloWorld {
+	
+	private String mensajitu;
+	
+	HelloWorld()
+	{
+		System.out.println("Objeto Creado");
+	}
+	
+	public void setMensajitu(String msg)
+	{
+		mensajitu=msg;
+	}
+	
+	public String getMensajitu()
+	{
+		return mensajitu;
+	}
+}

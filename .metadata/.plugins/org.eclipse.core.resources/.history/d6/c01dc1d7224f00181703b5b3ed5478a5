@@ -1,0 +1,12 @@
+package com.helloworld;
+
+public class HelloWorldApp {
+
+	public static void main(String[] args) {
+		HelloWorld msgBienvenida = new HelloWorld();
+		
+		msgBienvenida.setMensaje("Hola Mundo");
+		System.out.println(msgBienvenida.getMensaje());
+	}
+
+}

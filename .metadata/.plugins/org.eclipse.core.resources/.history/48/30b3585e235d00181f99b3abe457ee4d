@@ -1,0 +1,12 @@
+package com.holamundorest.services;
+
+import javax.ws.rs.Path;
+
+@Path("/holo")
+public class HolaMundoRestService {
+	
+	public String HolaMundo()
+	{
+		return "Hola Mundo";
+	}
+}

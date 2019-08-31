@@ -1,0 +1,61 @@
+package org.ejercicios;
+
+import java.util.Scanner;
+
+public class AppEjercicios {
+
+	public static void main(String[] args) {
+		Scanner entrada= new Scanner(System.in);
+		int numero=0;
+		
+		
+		int[] v = new int[100];
+		Vectores algoritmos = new Vectores();
+		
+		v=algoritmos.Serie1_100v();
+		for(int cont=0;cont<100;cont++)
+		{
+			System.out.println(v[cont]);
+		}
+		System.out.print("La suma de los elementos es:");
+		System.out.println(algoritmos.suma_vector(v));
+		System.out.println("Dame un número:");
+		numero=entrada.nextInt();
+		System.out.println("El numero es Impar?"+
+		algoritmos.Impar(numero));
+		System.out.println("Cuantos meses deseas convertir?");
+		numero=entrada.nextInt();
+		int[] n = new int[numero];
+
+		for(int cont=0;cont<numero;cont++)
+		{
+			System.out.println("Introduce un número de mes:");
+			n[cont]=entrada.nextInt();
+		}
+		for(int cont=0;cont<n.length;cont++)
+		{
+			System.out.println(n[cont]);
+		}
+		String[] m = new String[n.length];
+		
+		m=algoritmos.Numeros2Meses(n);
+		
+		for(int cont=0;cont<m.length;cont++)
+		{
+			System.out.println(m[cont]);
+		}
+		
+		//Ejercicio de los números primos
+		Matematicas mates = new Matematicas();
+		System.out.println("Introduce un numero:");
+		numero = entrada.nextInt();
+		System.out.println("El número es primo:"+mates.Primo(numero));
+		
+		//System.out.println("Los primos palindromos son:"+ mates.Primos(numero));
+		n=mates.Primos(numero);
+		for (int cont=0;cont<numero;cont++)
+		{
+			System.out.println(n[cont]);
+		}
+	}
+}

@@ -1,0 +1,13 @@
+package com.strutsproject.actions;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class Mensaje extends ActionSupport{
+	
+	public String execute()
+	{
+		System.out.println("Si entro al execute");
+		return "Errorcitu";
+	}
+
+}

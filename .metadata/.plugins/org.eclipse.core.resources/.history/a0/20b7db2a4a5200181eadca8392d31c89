@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="bien1" class="com.springhelloworld2.helloworld.Bienvenida" init-method="miInicio" destroy-method="miFin">
+	<property name="bien" value=" Bienvenido"></property>
+</bean>
+
+<bean id="hola1" class="com.springhelloworld2.helloworld.HelloWorld" init-method="miInicio" destroy-method="miFin">
+	<property name="mensajitu" value="Holo El Macho!"></property>
+</bean>
+
+<bean id="hola2" class="com.springhelloworld2.helloworld.HelloWorld">
+	<property name="mensajitu" value="Holo Quique!"></property>
+</bean>
+
+<bean id="hola3" class="com.springhelloworld2.helloworld.HelloWorld">
+	<property name="mensajitu" value="Holo Toño!"></property>
+</bean>
+</beans>

@@ -1,0 +1,12 @@
+//alert("Testitu con flecha");
+$(document).ready(
+		()=>
+		{
+			$("#btnNombre").click(inicializa);
+		}
+);
+
+function inicializa()
+{
+	alert("Testitu con flecha");
+}

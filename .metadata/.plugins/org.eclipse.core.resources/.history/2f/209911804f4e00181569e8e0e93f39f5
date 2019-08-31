@@ -1,0 +1,11 @@
+package com.strutsproject.actions;
+
+public class Mensaje {
+	
+	public String execute()
+	{
+		System.out.println("Si entro al execute");
+		return "HolaMundo";
+	}
+
+}

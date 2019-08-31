@@ -1,0 +1,14 @@
+package com.primeservice.webservices;
+
+import javax.jws.WebService;
+
+@WebService
+public class HolaMundo implements iHolaMundo {
+
+	@Override
+	public String HolaMundo(String nombre) {
+		return "Hola Mundo "+nombre;
+	}
+	
+	
+}

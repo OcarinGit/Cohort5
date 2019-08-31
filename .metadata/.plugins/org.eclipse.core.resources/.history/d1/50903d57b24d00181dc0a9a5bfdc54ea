@@ -1,0 +1,13 @@
+package com.strutsholamundo.actions;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class HolaMundo extends ActionSupport{
+	
+	public String execute()
+	{
+		System.out.println("Sí entró a execute");
+		return "HolaMundo";
+	}
+
+}

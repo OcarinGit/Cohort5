@@ -1,0 +1,16 @@
+package com.springhelloworld2.helloworld;
+
+public class HelloWorld {
+	
+	private String mensajitu;
+	
+	public void setMensajitu(String msg)
+	{
+		mensajitu=msg;
+	}
+	
+	public String getMensajitu()
+	{
+		return mensajitu;
+	}
+}

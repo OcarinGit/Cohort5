@@ -1,0 +1,16 @@
+package com.holamundorest.services;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+
+@Path("/holamundo")
+public class HolaMundoRestService {
+	
+	@GET
+	@Produces("text/html")
+	public String HolaMundoHTML()
+	{
+		return "<h1>Hola Mundo</h1>";
+	}
+}

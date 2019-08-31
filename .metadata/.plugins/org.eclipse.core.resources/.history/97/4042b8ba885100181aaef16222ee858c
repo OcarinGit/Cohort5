@@ -1,0 +1,5 @@
+package com.holamundospringboot.model;
+
+public class HolaMundoControlador {
+
+}

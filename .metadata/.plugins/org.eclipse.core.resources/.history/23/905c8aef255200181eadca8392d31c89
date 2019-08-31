@@ -1,0 +1,28 @@
+package com.springhelloworld2.helloworld;
+
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+@SuppressWarnings("deprecation")
+public class HelloWorld2App {
+
+	public static void main(String[] args) {
+		//System.out.println("Hola Mundo");
+		//Se crean los objetos de la forma típica del lado del programador
+		HelloWorld holo = new HelloWorld();
+		holo.setMensajitu("Holo");
+		System.out.println(holo.getMensajitu());
+		
+		//Se crean los objetos de la forma Spring. Utilizando el IoC
+		Resource resource = new ClassPathResource("HelloWorldBeans.xml");
+		
+		BeanFactory factory = new XmlBeanFactory(resource);
+		HelloWorld h1 = (HelloWorld) factory.getBean("hola1");
+		HelloWorld h2 = factory.getBean("hola2", HelloWorld.class);
+		HelloWorld h3 = (HelloWorld) factory.getBean("hola3");
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.primeservice.webservices;
+
+import javax.jws.WebService;
+
+@WebService(endpointInterface="com.primeservice.webservices.iHolaMundo")
+public class HolaMundo implements iHolaMundo {
+
+	
+	public String HolaMundoMensaje(String nombre) {
+		return "Hola Mundo "+nombre;
+	}
+	
+	
+}
